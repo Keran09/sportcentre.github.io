@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator with JavaScript</title>
+    <link rel="stylesheet" href="calculate.css">
+    <script src="calculate.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <h3>List of the Charges</h3>
+
+        
+            <ul>
+                <li>Futsal : $50 per person</li>
+                <li>Batmintion : $25 per person</li>
+                <li>Table Tennis : $20 per person</li>
+                <li>Tennis: $30 per hour</li>
+                <li>Basketball : $50 per hour</li>
+            </ul>
+
+           
+
+
+
+        <h3>Calculation</h3>
+
+
+        <p>Number of Player:
+            <input type="text" id="player"><br><span id="player_error"></span>
+        </p>
+
+        <p>Price per Person:
+            <input type="text" id="weight"><br><span id="weight_error"></span>
+        </p>
+
+        <button id="btn">Calculate</button> <button onclick= "window.location.href = 'index.html' ">Home</button>
+        <p id="output"></p>
+
+    </div>
+</body>
+</html>

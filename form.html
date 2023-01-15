@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Booking</title>
+	<link rel="stylesheet" href="form.css">
+  <script src='form.js'></script>
+	
+
+</head>
+<body>
+<div class="wrapper">
+	
+
+	<div>
+	 <form name="message" method="post"  onsubmit="return form()">
+    <div class="title">
+    <h2>Online Booking Form</h2>
+    </div>
+		<div class="inputfield">
+		<label for="fname">First Name</label>
+		<input type="text" name="fname" id="fname" size="60" placeholder="Enter your first name"  >
+		</div>
+		<div class="inputfield">
+		<label for="lname">Last Name:</label>
+    <input type="text" name="lname" id="lname" size="60" placeholder="Enter your last name" >
+    </div>
+    <div class="inputfield">
+    <label for="email">E-mail:</label>
+    <input type="email" name="email" id="email" size="60" placeholder="Enter your e-mail address">
+    </div>
+
+    <div class="">
+    <p>Select Your Age Group</p>
+    15-25<input type="radio" id="early" name="age" value="15-25"><br>
+    26-35<input type="radio" id="earlyMid" name="age" value="26-35"><br>
+    36-45<input type="radio" id="mid" name="age" value="36-45"><br>
+    46-55<input type="radio" id="lateMid" name="age" value="46-55"><br>
+    55+<input type="radio" id="old" name="age" value="55+"><br>
+    </div>
+    <div>
+      <p>Choose the Sports</p>
+      <div>
+       <input type="checkbox" id="1" name="Table Tennis" value="Table Tennis">
+       <label for="1"> Table Tennis</label><br> 
+      </div>
+      <div>
+       <input type="checkbox" id="2" name="Basketball" value="Basketball">
+       <label for="2"> Basketball</label><br> 
+      </div>
+      <div>
+       <input type="checkbox" id="3" name="Futsal" value="Futsal">
+       <label for="3"> Futsal</label><br> 
+      </div>
+      <div>
+       <input type="checkbox" id="4" name="Tennis" value="Tennis">
+       <label for="4"> Tennis</label><br> 
+      </div>
+      <div>
+       <input type="checkbox" id="5" name="Batminton" value="Batminton">
+       <label for="5"> Batminton</label><br> 
+      </div>
+    </div>
+      <br>
+
+    <div class="inputfield">
+      <label for="days">Day:</label>
+      <input type="text" name="days" id="days" size="50" placeholder="Enter the day you want to play" >
+    </div>
+    <div class="inputfield">
+      <label for="time">Time:</label>
+      <input type="Time" name="time" id="time" size="5"  >
+    </div>
+    <div class="inputfield">
+    <label for="myComments">Comments:</label>
+    <textarea name="myComments" id="myComments" rows="5" cols="60" placeholder="Enter your Comments" ></textarea>
+    </div>
+    <input class="submit" type="submit" value="Submit"> 
+    <input class="reset" type="reset" value="Reset">
+    <button onclick= "window.location.href = 'index.html' ">Home</button>
+    </form>
+    </div>
+</div>
+</body>
+</html>

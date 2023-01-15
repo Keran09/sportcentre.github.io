@@ -1,0 +1,68 @@
+body{
+  background: grey;
+  padding: 0 10px;
+}
+
+.wrapper
+{
+
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+    background-color: white;
+    box-shadow: 1px 1px 2px rgba(0,0,0,0.125)
+}
+.inputfields
+{
+    display: block;
+    float: left;
+	width: 200px;
+	text-align: right;
+	padding: 10px;	
+}
+.title
+{
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: #fec107;
+  text-transform: uppercase;
+  text-align: center ;
+  border: thin;
+
+
+}
+.inputfield
+{
+	margin-bottom: 15px;
+	display: flex;
+	
+}
+
+inputfield label
+{
+	width: 200px;
+	color: #757575;
+	margin-right: 10px;
+	font-size: 14px;
+}
+.inputfield.textarea{
+	width: 100%;
+	height: 125px;
+	resize: none;
+}
+form { 
+
+	width: 100%; 
+    
+}
+.submit
+{
+	
+	margin-left: 200px;
+}

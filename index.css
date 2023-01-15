@@ -1,0 +1,89 @@
+@media only screen and (max-width: 1200px)
+body
+ {
+margin:0px;
+background-color:white ;
+background-size: 1600px;
+font-family: Verdana, Arial, sans-serif, Geneva;
+}
+
+#header 
+{
+  background-color:#C2B9B0 ;
+ color: #cc66cc;
+ text-align: right;
+ height: 150px;
+ padding: 0px 15px; 
+}
+.text
+{
+  color: black;
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  font-size: 50pt;
+}
+div{
+  padding-left:20px ;
+  padding-right:20px ;
+}
+.menubtn {
+  background-color: #96ca4f;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  width:1400px;
+}
+.menu{
+  position: relative;
+  display: inline-block;
+}
+
+.content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  width: 1400px;
+}
+.content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  padding-left:600px ;
+}
+
+.content a:hover {
+  background-color: #ddd;
+}
+
+.menu:hover .content {
+  display: block;
+}
+
+.menu:hover .menubtn {
+  background-color: #3e8e41;
+}
+
+.back {
+  background-image: url('image/foot.jpg');
+}
+
+h1, h3, h2{
+  text-align: right;
+}
+
+h1{
+  color: royalblue;
+}
+
+h3{
+  color: green;
+}
+h2, h4{
+  color: yellowgreen;
+}
